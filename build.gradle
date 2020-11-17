@@ -4,7 +4,7 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.4.0-rc'
 }
 
-group = 'io.izzel.taboolib.example'
+group = 'io.izzel.taboolib.demo'
 version = '1.0.0'
 
 sourceCompatibility = '1.8'
@@ -17,7 +17,7 @@ taboolib {
 }
 
 repositories {
-    // mavenCentral()
+     mavenCentral()
 }
 
 dependencies {

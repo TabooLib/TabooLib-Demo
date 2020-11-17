@@ -1,9 +1,8 @@
-package io.izzel.taboolib.example
+package io.izzel.taboolib.demo
 
-import io.izzel.taboolib.TabooLib
 import io.izzel.taboolib.loader.Plugin
 
-object ExamplePlugin : Plugin() {
+object Demo : Plugin() {
 
     override fun onLoad() {
         // override onLoad()
